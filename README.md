@@ -1,9 +1,13 @@
 # Proyecto Consolidación del producto turístico de Paraíso de Cartago, CR
 
 # Equipo
+
 Soledad Kopper Gamboa
+
 Kristal Durán Araya
+
 Andrés Miranda Arias
+
 Gabriel Quesada Brenes
 
 # Dependencias
