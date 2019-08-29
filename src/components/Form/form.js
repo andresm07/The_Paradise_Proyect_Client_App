@@ -17,8 +17,13 @@ class Form extends React.Component {
   render() {
     return (
       <div className="form">
-        Formulario
+        <div className="form__TextoNombre">
+            tyhtyujt
+        </div>
       </div>
     )
   }
 }
+
+
+export default Form;

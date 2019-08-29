@@ -6,6 +6,7 @@
  */
 import React from 'react';
 import './styles.scss'
+import Form from './../Form/index'
 
 class HomePage extends React.Component {
   constructor(props) {
@@ -18,6 +19,7 @@ class HomePage extends React.Component {
     return (
       <div className="home">
         HomePage
+        <Form></Form>
       </div>
     )
   }

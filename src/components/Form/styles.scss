@@ -1,3 +1,21 @@
 .form{
-    
+    &__TextoNombre{
+        /* Nombre Completo (*) */
+        position: absolute;
+        width: 186px;
+        height: 21px;
+        left: 249px;
+        top: 386px;
+
+        font-family: Questrial;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 21px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #000000;
+    }
 }
