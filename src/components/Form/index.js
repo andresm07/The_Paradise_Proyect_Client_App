@@ -1,8 +1,8 @@
 /**
  * Filename: index.js
- * Author: 
- * Date: 
- * Description: Index file for HomePage modules
+ * Author: andres.mirandaarias@gmail.com
+ * Date: 28/08/2019
+ * Description: Index file for Form modules
  */
 import Form from './form'
 

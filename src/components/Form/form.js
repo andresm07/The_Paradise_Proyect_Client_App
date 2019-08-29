@@ -1,8 +1,8 @@
 /**
  * Filename: HomePage.js
- * Author: email
- * Date: 
- * Description: Home page component 
+ * Author: andres.mirandaarias@gmail.com
+ * Date: 28/08/2019
+ * Description: Form component 
  */
 import React from 'react';
 import './styles.scss'
@@ -17,7 +17,7 @@ class Form extends React.Component {
   render() {
     return (
       <div className="form">
-        HomePage
+        Formulario
       </div>
     )
   }
