@@ -6,6 +6,7 @@
  */
 import React from 'react';
 import './styles.scss'
+import AtrctivoTuristico from '../AtractivoTuristico/AtrctivoTuristico';
 
 class HomePage extends React.Component {
   constructor(props) {
@@ -17,7 +18,8 @@ class HomePage extends React.Component {
   render() {
     return (
       <div className="home">
-        Hello world
+        <AtrctivoTuristico
+          atactivoTuristico={"Jardín Botanico Lankester"} />
       </div>
     )
   }

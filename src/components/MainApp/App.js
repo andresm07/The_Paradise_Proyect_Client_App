@@ -8,6 +8,8 @@ import HomePage from "../../modules/HomePage/index";
 import PropTypes from "prop-types";
 import React from "react";
 import queryString from 'query-string';
+import 'bootstrap/dist/css/bootstrap.css';
+
 class App extends React.Component {
   constructor(props) {
     super(props)
@@ -15,7 +17,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div className="home">
+      <div>
         <HomePage code={this.state.code}
         userData={this.props.location.state}/>
     </div>

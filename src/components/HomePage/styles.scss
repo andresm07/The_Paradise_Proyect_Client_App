@@ -1,5 +1,10 @@
 @import '../../assets/styles/constants.scss';
 
 .home {
-  font-size: 50px;
+  font-size: 20px;
+  &__text{
+    position: relative;
+    text-align: center;
+    top: 300px;
+  }
 }
