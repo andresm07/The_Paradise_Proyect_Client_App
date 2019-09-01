@@ -6,6 +6,7 @@
  */
 import React from 'react';
 import './styles.scss'
+import Footer from './../Footer/index';
 
 class HomePage extends React.Component {
   constructor(props) {
@@ -17,10 +18,11 @@ class HomePage extends React.Component {
   render() {
     return (
       <div className="home">
-        HomePage
+        <p>HomePage</p>
+        <Footer></Footer>
       </div>
     )
   }
 }
 
-export default HomePage;
+export default (HomePage);
