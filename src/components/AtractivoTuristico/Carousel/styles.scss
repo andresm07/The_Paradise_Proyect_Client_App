@@ -1,0 +1,16 @@
+@import '../../../assets/styles/constants.scss';
+
+.customCarousel {
+  font-size: 12px;
+  margin: 20px auto;
+  &__text{
+    position: relative;
+    text-align: center;
+    top: 300px;
+  }
+}
+
+.img {
+  height: 338px;
+  width: 990px;
+}

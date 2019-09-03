@@ -1,10 +1,8 @@
 @import '../../assets/styles/constants.scss';
-
-h1 {
-  color: #0269AB;
-}
+@import './../../assets/styles/fonts.scss';
 
 .atrctivoTuristico {
+  font-family: $questrial;
   font-size: 12px;
   margin: 20px auto;
   &__text{
@@ -14,13 +12,7 @@ h1 {
   }
 }
 
-.img {
-  height: 338px;
-  width: 990px;
-}
-
-.icon{ 
-  margin: 0 10px 0 0;
-  height: 20px;
-  width: 20px;
+h1 {
+  font-family: $questrial;
+  color: #0269AB;
 }

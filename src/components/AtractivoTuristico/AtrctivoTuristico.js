@@ -6,7 +6,9 @@
  */
 import React from 'react';
 import './styles.scss'
-import { Container, Row, Col, Carousel, ListGroup, Card } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+import CustomCarousel from './Carousel/index'
+import ContactCard from './ContactCard/index'
 
 class AtrctivoTuristico extends React.Component {
   constructor(props) {
@@ -22,71 +24,13 @@ class AtrctivoTuristico extends React.Component {
     }
   }
 
-  renderCarousel(imgList) {
-    return(
-      <Carousel>
-      {imgList.map( (item, key) => (
-          <Carousel.Item key={key}>
-            <img
-              className="img d-block w-100"
-              src={item}
-              alt="First slide"
-            />
-          </Carousel.Item>
-        ))}
-      </Carousel>
-    );
-  }
-
-  renderContactCard() {
-    return(
-    <Card style={{ width: '18rem' }}>
-      <Card.Header>Contacto</Card.Header>
-      <ListGroup variant="flush">
-        <ListGroup.Item>
-          <img
-            className="icon"
-            src="./../../assets/img/001-internet.png"
-            alt="First slide"
-          />
-          {this.state.email}
-        </ListGroup.Item>
-        <ListGroup.Item>
-          <img
-            className="icon"
-            src="./../../assets/img/003-phone-book.png"
-            alt="First slide"
-          />
-          {this.state.phone}
-        </ListGroup.Item>
-        <ListGroup.Item>
-          <img
-            className="icon"
-            src="./../../assets/img/002-placeholder.png"
-            alt="First slide"
-          />
-          {this.state.location}
-        </ListGroup.Item>
-        <ListGroup.Item>
-          <img
-            className="icon"
-            src="./../../assets/img/004-clock.png"
-            alt="First slide"
-          />
-          {this.state.hours}
-        </ListGroup.Item>
-      </ListGroup>
-    </Card>
-    )
-  }
-
   render() {
     return (
       <div className="atrctivoTuristico">
         <Container>
-          {this.renderCarousel(this.state.images)}
+          <CustomCarousel imgList={this.state.images}/>
           <Row>
-            <Col className="atrctivoTuristico">
+            <Col>
               <h1>{this.state.name}</h1>
               <h4>Información</h4>
             </Col>
@@ -100,7 +44,7 @@ class AtrctivoTuristico extends React.Component {
               </Container>
             </Col>
           </Row>
-          {this.renderContactCard()}
+          <ContactCard email={this.state.email} phone={this.state.phone} location={this.state.location} hours={this.state.hours}/>
         </Container>
       </div>
     )

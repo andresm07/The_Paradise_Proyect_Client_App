@@ -18,8 +18,7 @@ class HomePage extends React.Component {
   render() {
     return (
       <div className="home">
-        <AtrctivoTuristico
-          atactivoTuristico={"Jardín Botanico Lankester"} />
+        <AtrctivoTuristico />
       </div>
     )
   }

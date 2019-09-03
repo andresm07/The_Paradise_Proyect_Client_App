@@ -1,0 +1,17 @@
+@import '../../../assets/styles/constants.scss';
+
+.contactCard {
+  font-size: 12px;
+  margin: 20px auto;
+  &__text{
+    position: relative;
+    text-align: center;
+    top: 300px;
+  }
+}
+
+.icon{ 
+  margin: 0 10px 0 0;
+  height: 20px;
+  width: 20px;
+}
