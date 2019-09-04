@@ -6,6 +6,7 @@
  */
 import React from 'react';
 import './styles.scss'
+import escudo from './../../assets/img/header.png';
 
 class Header extends React.Component {
   constructor(props) {
@@ -17,7 +18,23 @@ class Header extends React.Component {
   render() {
     return (
       <div className="header">
-        Header
+        <img className = "header__escudo" 
+        src = {escudo}></img>
+        <div className= "header__menu">
+          <div className = "header__menu__raya"></div>
+          <p className= "header__menu__opcion"> La Municipalidad</p>
+          <div className = "header__menu__raya"></div>
+          <p className= "header__menu__opcion"> Quiénes Somos</p>
+          <div className = "header__menu__raya"></div>
+          <p className= "header__menu__opcion"> Atractivos Turísticos</p>
+          <div className = "header__menu__raya"></div>
+          <p className= "header__menu__opcion"> Agenda Cultural</p>
+          <div className = "header__menu__raya"></div>
+          <p className= "header__menu__opcion"> Contáctenos</p>
+          <div className = "header__menu__raya"></div>
+          <p className= "header__menu__opcion"> Patentes</p>
+          <div className = "header__menu__raya"></div>
+        </div>
       </div>
     )
   }
