@@ -1,0 +1,60 @@
+@import './../../assets/styles/fonts.scss';
+
+.form{
+
+    font-family: $questrial;
+    font-size: 20px;
+    margin-left: 100px;
+
+    &__contactenos{
+        font-size: 50px;
+        color: #1E3D85;
+    }
+    &__datos{
+        display: flex;
+        flex-direction: row;
+        margin-left: 100px;
+        
+        &__labels{
+            display: flex;
+            flex-direction: column;
+
+            &__tag{
+                width: 200px;
+            }
+        }
+        
+        &__inputs{
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+            margin-left: 20px;
+            width: 177px;
+            
+            &__info{
+                margin-bottom: 35px;
+            }
+
+            &__textarea{
+                margin-bottom: 35px;
+                height: 100px;
+                width: 354px;
+                resize: none;
+            }
+        }
+    }
+
+    &__nota{
+        margin-left: 100px;
+        width: 600px;
+    }
+
+    &__enviar{
+        background: #0269AB;
+        height: 30px;
+        width: 85px;
+        color: #FFFFFF;
+        margin-left: 317px;
+        font-family: $questrial;
+    }
+}

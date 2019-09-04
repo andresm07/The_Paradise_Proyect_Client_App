@@ -7,6 +7,9 @@
 import React from 'react';
 import './styles.scss';
 import Event from './Event/index';
+import eventsList from './../../config/events.json';
+import Header from './../Header/index'
+import Footer from './../Footer/index';
 
 class CulturalEvents extends React.Component {
   constructor(props) {
@@ -17,64 +20,26 @@ class CulturalEvents extends React.Component {
 
   render() {
     return (
+      <div>
+        <Header></Header>
       <div className="events">
       <p className="events__title">Agenda Cultal</p>
       <div className="events__grid">
-      <Event
-        imagen=""
-        date="14"
-        month="Set"
-        name="Desfile faroles"
-        type="Cultural"
-        time="5:00"
-        period="p.m."
-      ></Event>
-      <Event
-        imagen=""
-        date="14"
-        month="Set"
-        name="Desfile faroles"
-        type="Cultural"
-        time="5:00"
-        period="p.m."
-      ></Event>
-      <Event
-        imagen=""
-        date="14"
-        month="Set"
-        name="Desfile faroles"
-        type="Cultural"
-        time="5:00"
-        period="p.m."
-      ></Event>
-      <Event
-        imagen=""
-        date="14"
-        month="Set"
-        name="Desfile faroles"
-        type="Cultural"
-        time="5:00"
-        period="p.m."
-      ></Event>
-      <Event
-        imagen=""
-        date="14"
-        month="Set"
-        name="Desfile faroles"
-        type="Cultural"
-        time="5:00"
-        period="p.m."
-      ></Event>
-      <Event
-        imagen=""
-        date="14"
-        month="Set"
-        name="Desfile faroles"
-        type="Cultural"
-        time="5:00"
-        period="p.m."
-      ></Event>
+      {eventsList.map((event) => (
+        // eslint-disable-next-line react/jsx-key
+        <Event
+          imagen={event.img}
+          date={event.date}
+          month={event.month}
+          name={event.name}
+          type={event.type}
+          time={event.time}
+          period={event.period}
+        ></Event>
+      ))}
       </div>
+      </div>
+      <Footer></Footer>
       </div>
     )
   }

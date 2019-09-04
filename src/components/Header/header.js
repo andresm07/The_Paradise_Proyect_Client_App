@@ -6,7 +6,8 @@
  */
 import React from 'react';
 import './styles.scss'
-import escudo from './../../assets/img/header.png';
+import montaña from './../../assets/img/montaña.png';
+import escudo from './../../assets/img/escudo.png';
 import { Link } from 'react-router-dom';
 
 class Header extends React.Component {
@@ -19,14 +20,19 @@ class Header extends React.Component {
   render() {
     return (
       <div className="header">
-        <img className = "header__escudo" 
-        src = {escudo}></img>
+        
+        <div className = "header__back">
+          {/* <img className="header__back__imagen" src = {montaña}></img> */}
+          <img className="header__back__escudo" src = {escudo}></img>
+          <p className="header__back__name">MUNICIPALIDAD DE PARAÍSO</p>
+        </div>
+
         <div className= "header__menu">
-          <Link to= "/">
-            
+          {/** <Link to= "/">*/}
+
           <div className = "header__menu__raya"></div>
           <p className= "header__menu__opcion"> La Municipalidad</p>
-          </Link>
+          {/*</Link>*/}
 
           <div className = "header__menu__raya"></div>
           <p className= "header__menu__opcion"> Quiénes Somos</p>

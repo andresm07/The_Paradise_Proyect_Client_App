@@ -6,7 +6,7 @@
   font-family: $questrial;
   border-top: 1px solid #6A7E8A;
   color: black;
-  width: 785px;
+  width: 985px;
   height: 131px;
   &__image{
     width: 100px;
@@ -36,9 +36,13 @@
     margin-right: 30px;
     margin-left: 30px;
     margin-top: 25px;
+    width: 300px;
     &__name{
       font-size: 26px;
       margin-bottom: 20px;
+      line-height: 30px;
+      display: flex;
+      align-items: flex-end;
     }
     &__type{
       font-size: 20px;
@@ -59,4 +63,59 @@
     }
   }
 
+}
+
+@media only screen and (min-width: 851px) and (max-width: 1351px){
+
+.event{
+  width: 635px;
+  height: 110px;
+  &__image{
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+
+  &__date{
+    margin-right: 15px;
+    margin-left: 25px;
+    margin-top: 20px;
+    &__day{
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+    &__month{
+      font-size: 20px;
+    }
+  }
+
+  &__info{
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 200px;
+    &__name{
+      font-size: 20px;
+      margin-bottom: 15px;
+      line-height: 25px;
+    }
+    &__type{
+      font-size: 15px;
+    }
+  }
+
+  &__time{
+    margin-top: 20px;
+    margin-left: 55px;
+    &__hour{
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+    &__period{
+      font-size: 18px;
+    }
+  }
+
+}
 }

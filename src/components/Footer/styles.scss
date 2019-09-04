@@ -4,8 +4,9 @@
     border-top: 1px solid #0269AB;
     width: 100%;
     position: absolute;
-    bottom: 0px;
+    // bottom: 0px;
     left: 0px;
+    margin-top: 300px;
     &__content{
         display: flex;
         flex-direction: row;
