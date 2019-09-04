@@ -7,6 +7,7 @@
 import React from 'react';
 import './styles.scss'
 import escudo from './../../assets/img/header.png';
+import { Link } from 'react-router-dom';
 
 class Header extends React.Component {
   constructor(props) {
@@ -21,8 +22,12 @@ class Header extends React.Component {
         <img className = "header__escudo" 
         src = {escudo}></img>
         <div className= "header__menu">
+          <Link to= "/">
+            
           <div className = "header__menu__raya"></div>
           <p className= "header__menu__opcion"> La Municipalidad</p>
+          </Link>
+
           <div className = "header__menu__raya"></div>
           <p className= "header__menu__opcion"> Quiénes Somos</p>
           <div className = "header__menu__raya"></div>
