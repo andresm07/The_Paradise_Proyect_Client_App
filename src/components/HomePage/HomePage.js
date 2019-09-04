@@ -7,7 +7,7 @@
 import React from 'react';
 import './styles.scss'
 import Footer from './../Footer/index';
-
+import CulturalEvents from './../CulturalEvents/index'
 class HomePage extends React.Component {
   constructor(props) {
     super(props)
@@ -18,7 +18,7 @@ class HomePage extends React.Component {
   render() {
     return (
       <div className="home">
-        <p>HomePage</p>
+        <CulturalEvents></CulturalEvents>
         <Footer></Footer>
       </div>
     )
