@@ -7,6 +7,7 @@
 import React from 'react';
 import './styles.scss'
 import Header from './../Header/index'
+import Footer from './../Footer/index';
 
 class HomePage extends React.Component {
   constructor(props) {
@@ -18,11 +19,12 @@ class HomePage extends React.Component {
   render() {
     return (
       <div className="home">
-        <Header />
-        HomePage
+        <Header></Header>
+        <p>HomePage</p>
+        <Footer></Footer>
       </div>
     )
   }
 }
 
-export default HomePage;
+export default (HomePage);
