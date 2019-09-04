@@ -6,6 +6,7 @@
  */
 import React from 'react';
 import './styles.scss'
+import Header from './../Header/index'
 import Footer from './../Footer/index';
 import CulturalEvents from './../CulturalEvents/index'
 class HomePage extends React.Component {
@@ -19,6 +20,8 @@ class HomePage extends React.Component {
     return (
       <div className="home">
         <CulturalEvents></CulturalEvents>
+        <Header></Header>
+        <p>HomePage</p>
         <Footer></Footer>
       </div>
     )
