@@ -7,7 +7,6 @@
 import React from 'react';
 import './styles.scss'
 import AtrctivoTuristico from '../AtractivoTuristico/AtrctivoTuristico';
-import Footer from './../Footer/index';
 
 class HomePage extends React.Component {
   constructor(props) {
@@ -20,10 +19,9 @@ class HomePage extends React.Component {
     return (
       <div className="home">
         <AtrctivoTuristico />
-        <Footer></Footer>
       </div>
     )
   }
 }
 
-export default (HomePage);
+export default HomePage;
