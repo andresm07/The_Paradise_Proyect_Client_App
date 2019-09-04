@@ -1,0 +1,40 @@
+@import '../../assets/styles/constants.scss';
+@import '../../assets/styles/fonts.scss';
+
+.header {
+  font-size: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0; 
+  text-align: center;
+  align-content: center;
+  &__escudo{
+    width: 100%;
+  }
+  &__menu{
+    background: #FFE000;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    font-family: $questrial;
+    color: #0269AB;
+    text-align: center;
+    align-items: center;
+   
+    &__opcion{
+      margin-right: 30px;
+      margin-left: 30px;
+      
+     
+    }
+    &__raya{
+      margin-right: 10px;
+      margin-left: 10px;
+      border-right: 1px solid  #0269AB;
+      height: 60px;
+    }
+
+  }
+}

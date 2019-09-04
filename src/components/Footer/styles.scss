@@ -1,0 +1,35 @@
+@import './../../assets/styles/fonts.scss';
+
+.footer{
+    border-top: 1px solid #0269AB;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    &__content{
+        display: flex;
+        flex-direction: row;
+    }
+    &__line{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 10px;
+        left: 0px;
+        color: white;
+        font-family: $questrial;
+        font-size: 13px;
+        text-align: center;
+        bottom: 0px;
+        line-height: 13px;
+        &__first{
+            background: #0269AB;
+            width: 98%;
+            padding: 8px;
+        }
+        &__second{
+            border-bottom: 35px solid #FFE000;
+            width: 2%;
+        }
+    }
+}
