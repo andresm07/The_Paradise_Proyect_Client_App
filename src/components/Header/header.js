@@ -22,11 +22,11 @@ class Header extends React.Component {
         <img className = "header__escudo" 
         src = {escudo}></img>
         <div className= "header__menu">
-          <Link to= "/">
+          {/*<Link to= "/">*/}
             
           <div className = "header__menu__raya"></div>
           <p className= "header__menu__opcion"> La Municipalidad</p>
-          </Link>
+          {/*</Link>*/}
 
           <div className = "header__menu__raya"></div>
           <p className= "header__menu__opcion"> Quiénes Somos</p>

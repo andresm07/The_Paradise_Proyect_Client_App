@@ -8,6 +8,7 @@ import React from 'react';
 import './styles.scss'
 import Header from './../Header/index'
 import Footer from './../Footer/index';
+import QuienesSomos from '../QuienesSomos';
 
 class HomePage extends React.Component {
   constructor(props) {
@@ -21,6 +22,7 @@ class HomePage extends React.Component {
       <div className="home">
         <Header></Header>
         <p>HomePage</p>
+        <QuienesSomos></QuienesSomos>
         <Footer></Footer>
       </div>
     )
