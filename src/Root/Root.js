@@ -10,6 +10,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import MainApp from "../modules/MainApp/MainApp";
 import { CookiesProvider } from 'react-cookie'
 import store from './store/store'
+import CultutalEvents from './../components/CulturalEvents/index';
+import Form from './../components/Form/index';
 
 export default class Root extends Component {
   constructor(props) {
@@ -21,6 +23,11 @@ export default class Root extends Component {
         <Provider store={store}>
           <Router>
               <Switch>
+                <Route path="/events" component={CultutalEvents} />
+                <Route path="/nosotros" component={CultutalEvents} />
+                <Route path="/atractivos" component={CultutalEvents} />
+                <Route path="/contactanos" component={Form} />
+                <Route path="/patentes" component={CultutalEvents} />
                 <Route path="/" component={MainApp} />
               </Switch>
             </Router>

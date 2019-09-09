@@ -20,10 +20,10 @@ class HomePage extends React.Component {
   render() {
     return (
       <div className="home">
-        {/* <Header></Header> */}
-        <CulturalEvents></CulturalEvents>
+        <Header></Header>
+        {/* <CulturalEvents></CulturalEvents> */}
         {/* <Form></Form> */}
-        {/* <Footer></Footer> */}
+        <Footer></Footer>
       </div>
     )
   }

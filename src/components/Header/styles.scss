@@ -43,16 +43,24 @@
     color: #0269AB;
     text-align: center;
     align-items: center;
+    padding-left: 90px;
    
+    &__link{
+      text-decoration: none;
+      color: #0269AB;
+      display: flex;
+      flex-direction: row;
+    }
     &__opcion{
-      margin-right: 30px;
-      margin-left: 30px;
+      margin-right: 20px;
+      margin-left: 20px;
     }
     &__raya{
       margin-right: 10px;
       margin-left: 10px;
       border-right: 1px solid  #0269AB;
       height: 40px;
+      margin-top: 10px;
     }
 
   }

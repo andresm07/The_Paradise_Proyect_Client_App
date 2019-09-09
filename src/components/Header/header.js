@@ -22,29 +22,36 @@ class Header extends React.Component {
       <div className="header">
         
         <div className = "header__back">
-          {/* <img className="header__back__imagen" src = {montaña}></img> */}
           <img className="header__back__escudo" src = {escudo}></img>
           <p className="header__back__name">MUNICIPALIDAD DE PARAÍSO</p>
         </div>
 
         <div className= "header__menu">
-          {/** <Link to= "/">*/}
-
-          <div className = "header__menu__raya"></div>
-          <p className= "header__menu__opcion"> La Municipalidad</p>
-          {/*</Link>*/}
-
-          <div className = "header__menu__raya"></div>
-          <p className= "header__menu__opcion"> Quiénes Somos</p>
-          <div className = "header__menu__raya"></div>
-          <p className= "header__menu__opcion"> Atractivos Turísticos</p>
-          <div className = "header__menu__raya"></div>
-          <p className= "header__menu__opcion"> Agenda Cultural</p>
-          <div className = "header__menu__raya"></div>
-          <p className= "header__menu__opcion"> Contáctenos</p>
-          <div className = "header__menu__raya"></div>
-          <p className= "header__menu__opcion"> Patentes</p>
-          <div className = "header__menu__raya"></div>
+          <Link className= "header__menu__link" to= "/">
+            <div className = "header__menu__raya"></div>
+            <p className= "header__menu__opcion"> La Municipalidad</p>
+            <div className = "header__menu__raya"></div>
+          </Link>
+          <Link className= "header__menu__link" to= "/nosotros">
+            <p className= "header__menu__opcion"> Quiénes Somos</p>
+            <div className = "header__menu__raya"></div>
+          </Link>
+          <Link className= "header__menu__link" to= "/atractivos">
+            <p className= "header__menu__opcion"> Atractivos Turísticos</p>
+            <div className = "header__menu__raya"></div>
+          </Link>
+          <Link className= "header__menu__link" to= "/events">
+            <p className= "header__menu__opcion"> Agenda Cultural</p>
+            <div className = "header__menu__raya"></div>
+          </Link>
+          <Link className= "header__menu__link" to= "/contactanos">
+            <p className= "header__menu__opcion"> Contáctenos</p>
+            <div className = "header__menu__raya"></div>
+          </Link>
+          <Link className= "header__menu__link" to= "/patentes">
+            <p className= "header__menu__opcion"> Patentes</p>
+            <div className = "header__menu__raya"></div>
+          </Link>
         </div>
       </div>
     )
