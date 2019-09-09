@@ -4,11 +4,90 @@
 .quienessomos {
   font-size: 50px;
   position: absolute;
-  
-  &__visionTitulo{
-    margin-top: 450px;
+  font-family: $questrial;
+  display: flex;
+  flex-direction: column;
+    
+  &__nosotros{
+    display: flex;
+    flex-direction: row;
+    &__visionmision{
+      display: flex;
+      flex-direction: column;
+
+      &__visionTitulo{
+        font-size: 50px;
+        color: #1E3D85;
+        margin-left: 40px;
+        margin-top: 300px;
+      }
+      &__misionTitulo{
+        font-size: 50px;
+        color: #1E3D85;
+        margin-left: 40px;
+      }
+      &__visiontexto{
+        color: #111111;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: justify;
+        width: 700px;
+        margin-left: 80px;
+      }
+      &__misiontexto{
+        color: #111111;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: justify;
+        width: 700px;
+        margin-left: 80px;
+      }
+    }
+
+    &__fiestas{
+      padding-left: 60px;
+      width: 800px;
+      height: 100%;
+      padding-top: 350px;
+    }
+
   }
-  
+
+  &__reseña{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    
+    &__mapa{
+      width: 640px;
+      height: 756px;
+    }
+    &__historia{
+      display: flex;
+      flex-direction: column;
+
+      &__titulo{
+        padding-left: 100px;
+        font-size: 50px;
+        color: #1E3D85;
+        margin-left: 40px;
+        margin-bottom: 300px;
+      }
+      &__texto{
+        color: #111111;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: justify;
+        width: 700px;
+        margin-left: 200px;
+      }
+
+    
+
+    }
+
+
+  }
  
   
 }
