@@ -6,7 +6,8 @@
  */
 import React from 'react';
 import './styles.scss'
-import escudo from './../../assets/img/header.png';
+import montaña from './../../assets/img/montaña.png';
+import escudo from './../../assets/img/escudo.png';
 import { Link } from 'react-router-dom';
 
 class Header extends React.Component {
@@ -19,26 +20,38 @@ class Header extends React.Component {
   render() {
     return (
       <div className="header">
-        <img className = "header__escudo" 
-        src = {escudo}></img>
-        <div className= "header__menu">
-          {/*<Link to= "/">*/}
-            
-          <div className = "header__menu__raya"></div>
-          <p className= "header__menu__opcion"> La Municipalidad</p>
-          {/*</Link>*/}
+        
+        <div className = "header__back">
+          <img className="header__back__escudo" src = {escudo}></img>
+          <p className="header__back__name">MUNICIPALIDAD DE PARAÍSO</p>
+        </div>
 
-          <div className = "header__menu__raya"></div>
-          <p className= "header__menu__opcion"> Quiénes Somos</p>
-          <div className = "header__menu__raya"></div>
-          <p className= "header__menu__opcion"> Atractivos Turísticos</p>
-          <div className = "header__menu__raya"></div>
-          <p className= "header__menu__opcion"> Agenda Cultural</p>
-          <div className = "header__menu__raya"></div>
-          <p className= "header__menu__opcion"> Contáctenos</p>
-          <div className = "header__menu__raya"></div>
-          <p className= "header__menu__opcion"> Patentes</p>
-          <div className = "header__menu__raya"></div>
+        <div className= "header__menu">
+          <Link className= "header__menu__link" to= "/">
+            <div className = "header__menu__raya"></div>
+            <p className= "header__menu__opcion"> La Municipalidad</p>
+            <div className = "header__menu__raya"></div>
+          </Link>
+          <Link className= "header__menu__link" to= "/nosotros">
+            <p className= "header__menu__opcion"> Quiénes Somos</p>
+            <div className = "header__menu__raya"></div>
+          </Link>
+          <Link className= "header__menu__link" to= "/atractivos">
+            <p className= "header__menu__opcion"> Atractivos Turísticos</p>
+            <div className = "header__menu__raya"></div>
+          </Link>
+          <Link className= "header__menu__link" to= "/events">
+            <p className= "header__menu__opcion"> Agenda Cultural</p>
+            <div className = "header__menu__raya"></div>
+          </Link>
+          <Link className= "header__menu__link" to= "/contactanos">
+            <p className= "header__menu__opcion"> Contáctenos</p>
+            <div className = "header__menu__raya"></div>
+          </Link>
+          <Link className= "header__menu__link" to= "/patentes">
+            <p className= "header__menu__opcion"> Patentes</p>
+            <div className = "header__menu__raya"></div>
+          </Link>
         </div>
       </div>
     )

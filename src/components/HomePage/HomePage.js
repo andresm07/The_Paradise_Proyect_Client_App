@@ -6,10 +6,10 @@
  */
 import React from 'react';
 import './styles.scss'
+// import Form from './../Form/index'
 import Header from './../Header/index'
 import Footer from './../Footer/index';
-import QuienesSomos from '../QuienesSomos';
-
+import CulturalEvents from './../CulturalEvents/index'
 class HomePage extends React.Component {
   constructor(props) {
     super(props)
@@ -21,8 +21,8 @@ class HomePage extends React.Component {
     return (
       <div className="home">
         <Header></Header>
-        <p>HomePage</p>
-        <QuienesSomos></QuienesSomos>
+        {/* <CulturalEvents></CulturalEvents> */}
+        {/* <Form></Form> */}
         <Footer></Footer>
       </div>
     )

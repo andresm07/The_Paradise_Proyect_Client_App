@@ -1,0 +1,35 @@
+@import '../../assets/styles/constants.scss';
+
+.events{
+  position: relative;
+  margin-left: 45%;
+  top: 350px;
+  &__grid{
+    overflow-y: auto;
+    width: 985px;
+    height: 393px;
+    margin-left: 100px;
+  }
+  &__title{
+    color: #1E3D85;
+    font-size: 50px;
+    line-height: 51px;
+  }
+}
+
+@media only screen and (min-width: 851px) and (max-width: 1351px){
+  .events{
+    margin-left: 150px;
+    top: 230px;
+    &__grid{
+      overflow-y: auto;
+      width: 635px;
+      height: 330px;
+      margin-left: 70px;
+    }
+    &__title{
+      font-size: 30px;
+      line-height: 21px;
+    }
+  }
+}
