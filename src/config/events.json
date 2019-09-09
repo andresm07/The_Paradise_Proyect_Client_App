@@ -6,7 +6,7 @@
         "period":"p.m.",
         "name":"Desfile faroles",
         "type":"Cultural",
-        "img":""
+        "img":"./../../../assets/img/agenda/cultura.png"
     },
     {  
         "date":"15",
@@ -15,7 +15,7 @@
         "period":"a.m.",
         "name":"Conmemoración del día de independencia",
         "type":"Cultural",
-        "img":""
+        "img":"./../../../assets/img/agenda/antorcha.png"
     },
     {  
         "date":"30",
@@ -24,7 +24,7 @@
         "period":"p.m.",
         "name":"Taller reciclaje",
         "type":"Educación",
-        "img":""
+        "img":"./../../../assets/img/agenda/evento.png"
     },
     {  
         "date":"1",
@@ -33,6 +33,6 @@
         "period":"p.m.",
         "name":"Obra de teatro",
         "type":"Cultural",
-        "img":""
+        "img":"./../../../assets/img/agenda/cultura.png"
     }
 ]

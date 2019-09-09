@@ -23,7 +23,7 @@ class CulturalEvents extends React.Component {
       <div>
         <Header></Header>
       <div className="events">
-      <p className="events__title">Agenda Cultal</p>
+      <p className="events__title">Agenda Cultural</p>
       <div className="events__grid">
       {eventsList.map((event) => (
         // eslint-disable-next-line react/jsx-key
