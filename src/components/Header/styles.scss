@@ -1,0 +1,67 @@
+@import '../../assets/styles/constants.scss';
+@import '../../assets/styles/fonts.scss';
+
+.header {
+  font-size: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0; 
+  text-align: center;
+  align-content: center;
+  &__back{
+    width: 100%;
+    height: 150px;
+    background-image: url("./../../assets/img/montaña.png");
+    display: flex;
+    flex-direction: row;
+    
+    &__escudo{
+      margin-left: 60%;
+      width: 100px;
+      height: 130px;
+      margin-top: 10px;
+      right: 0px;
+    }
+    &__name{
+      width: 300px;
+      font-family: $questrial;
+      font-size: 40px;
+      line-height: 42px;
+      margin-left: 20px;
+      color: #155D8B;
+    }
+  }
+  &__menu{
+    background: #FFE000;
+    height: 60px;
+    line-height: 22px;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    font-family: $questrial;
+    color: #0269AB;
+    text-align: center;
+    align-items: center;
+    padding-left: 90px;
+   
+    &__link{
+      text-decoration: none;
+      color: #0269AB;
+      display: flex;
+      flex-direction: row;
+    }
+    &__opcion{
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+    &__raya{
+      margin-right: 10px;
+      margin-left: 10px;
+      border-right: 1px solid  #0269AB;
+      height: 40px;
+      margin-top: 10px;
+    }
+
+  }
+}

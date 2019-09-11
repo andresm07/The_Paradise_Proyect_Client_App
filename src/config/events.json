@@ -1,0 +1,38 @@
+[
+    {  
+        "date":"14",
+        "month":"Set",
+        "time":"6:30",
+        "period":"p.m.",
+        "name":"Desfile faroles",
+        "type":"Cultural",
+        "img":"./../../../assets/img/agenda/cultura.png"
+    },
+    {  
+        "date":"15",
+        "month":"Set",
+        "time":"10:30",
+        "period":"a.m.",
+        "name":"Conmemoración del día de independencia",
+        "type":"Cultural",
+        "img":"./../../../assets/img/agenda/antorcha.png"
+    },
+    {  
+        "date":"30",
+        "month":"Oct",
+        "time":"1:30",
+        "period":"p.m.",
+        "name":"Taller reciclaje",
+        "type":"Educación",
+        "img":"./../../../assets/img/agenda/evento.png"
+    },
+    {  
+        "date":"1",
+        "month":"Nov",
+        "time":"5:00",
+        "period":"p.m.",
+        "name":"Obra de teatro",
+        "type":"Cultural",
+        "img":"./../../../assets/img/agenda/cultura.png"
+    }
+]
