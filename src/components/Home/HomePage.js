@@ -6,7 +6,7 @@
  */
 import React from 'react';
 import './styles.scss';
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import Carousel from '../Home/Carousel/index';
 import Img1 from '../../assets/img/home/0.jpg';
 import Img2 from '../../assets/img/home/1.jpg';
@@ -18,7 +18,8 @@ class HomePage extends React.Component {
     super(props)
     this.state = {
       images: ["./../../assets/img/home/0.jpg", "./../../assets/img/home/1.jpg", "./../../assets/img/home/2.jpg"],
-      captions: ["Paraiso es un paraiso", "Paraiso", "Paraiso"],
+      captions: ["Paraiso es un paraiso", "Yo solo sé que no sé nada", "Paraiso"],
+      captions2: ["Gabriel Quesada", "Andres Miranda", "Soledad K"],
     }
   }
 
@@ -28,6 +29,7 @@ class HomePage extends React.Component {
         <Carousel 
           imgList={this.state.images}
           captionList={this.state.captions}
+          captionList2={this.state.captions2}
         />
         <h1 className="title">Conozca Paraíso</h1>
         <div className="buttonGroup">

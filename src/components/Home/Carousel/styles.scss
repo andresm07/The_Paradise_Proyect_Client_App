@@ -1,13 +1,28 @@
-@import '../../../assets/styles/constants.scss';
 @import '../../../assets/styles/fonts.scss';
 
 .homeCarousel {
   width: 100%;
-  font-size: 12px;
   position: relative;
   font-family: $questrial;
 }
 
+.content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.25);
+  padding-bottom: 10px;
+  text-align: center;
+  letter-spacing: 0.015em;
+}
+
+.quote {
+  font-size: 50px;
+}
+
+.name {
+  font-size: 24px;
+}
 
 .img {
   width: 100%;

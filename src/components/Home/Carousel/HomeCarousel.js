@@ -14,6 +14,7 @@ class HomeCarousel extends React.Component {
     this.state = {
       imgList: this.props.imgList,
       captionList: this.props.captionList,
+      captionList2: this.props.captionList2,
     }
   }
 
@@ -28,7 +29,10 @@ class HomeCarousel extends React.Component {
               alt={key}
             />
             <Carousel.Caption>
-              <h3>{this.state.captionList[key]}</h3>
+              <div className="content">
+                <h3 className="quote">{this.state.captionList[key]}</h3>
+                <p className="name">{this.state.captionList2[key]}</p>
+              </div> 
             </Carousel.Caption>
           </Carousel.Item>
         ))}
