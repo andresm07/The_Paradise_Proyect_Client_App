@@ -27,7 +27,7 @@ class Tramites extends React.Component {
                 <div className= "tramites__titulo">Trámites y Servicios</div>
                 <div className= "tramites__info">
                     <img className="tramites__info__descarga" src = {descarga}></img>
-                    <div className= "tramites__info__texto">Descarga de patentes:</div> 
+                    <div className= "tramites__info__texto">Descarga de formularios:</div> 
                 </div>
                 <div className= "tramites__patentes">
                     <div className= "tramites__patentes__raya"></div>
@@ -35,17 +35,17 @@ class Tramites extends React.Component {
                         <div className= "tramites__patentes__descargas__linea1">
                         <div className= "tramites__patentes__descargas__linea1__raya"></div>
                         <img className= "tramites__patentes__descargas__linea1__doc" src = {doc}></img>
-                        <div className="tramites__patentes__descargas__linea1__texto">Patente de licores</div>
+                        <a className="tramites__patentes__descargas__linea1__texto" href= './../../assets/docs/Patente Licor.docx' download>Patente de licores</a>
                         </div>
                         <div className= "tramites__patentes__descargas__linea2">
                         <div className= "tramites__patentes__descargas__linea2__raya"></div>
                         <img className= "tramites__patentes__descargas__linea2__doc" src = {doc}></img>
-                        <div className="tramites__patentes__descargas__linea2__texto">Patente comercial</div>
+                        <a className="tramites__patentes__descargas__linea2__texto" href= './../../assets/docs/Patente Comercial.doc' download>Patente comercial</a>
                         </div>
                         <div className= "tramites__patentes__descargas__linea3">
                         <div className= "tramites__patentes__descargas__linea3__raya"></div>
                         <img className= "tramites__patentes__descargas__linea3__doc" src = {doc}></img>
-                        <div className="tramites__patentes__descargas__linea3__texto">Patente profesional</div>
+                        <a className="tramites__patentes__descargas__linea3__texto" href= './../../assets/docs/Cómo hacer un barómetro.docx' download>Patente profesional</a>
                         </div>
                     </div>
                 </div>
