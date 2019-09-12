@@ -1,0 +1,121 @@
+@import '../../assets/styles/constants.scss';
+@import '../../assets/styles/fonts.scss';
+
+.tramites {
+    
+    
+  font-family: $questrial;
+  
+    &__titulo{
+        margin-top: 300px;
+        font-size: 50px;
+        color: #1E3D85;
+        margin-left: 40px;
+
+    }
+    &__info{
+        display: flex;
+        flex-direction: row;
+        margin-left: 90px;
+        margin-top: 80px;
+        
+
+        &__descarga{
+            width: 10%;
+            
+        }
+        &__texto{
+            font-size: 30px;
+            color: black;
+            margin-top: 15px;
+            margin-left: 10px;
+            
+        }
+       
+    }
+    &__patentes{
+        margin-top: 40px;
+        margin-left: 160px;
+        display: flex;
+        flex-direction: row;
+        &__raya{            
+            border-right: 3px solid  black;
+            height: 250px;
+        }
+
+        &__descargas{
+            display: flex;
+            flex-direction: column;
+            margin-left: 15px;
+            
+            &__linea1{
+                margin-top: 30px;
+                display:flex;
+                flex-direction: row;
+                
+                &__raya{
+                    border-top: 2px solid black;
+                    margin-top: 20px;
+                    width: 30px;
+                }
+                &__doc{
+                    margin-left: 10px;
+                    width: 15%;
+                }
+               &__texto{
+                   color: black;
+                    font-size: 25px;
+                    margin-left: 15px;  
+                    margin-top: 15px;  
+               }
+                 
+            }
+
+            &__linea2{
+                margin-top: 30px;
+                display:flex;
+                flex-direction: row;
+                
+                &__raya{
+                    border-top: 2px solid black;
+                    margin-top: 20px;
+                    width: 30px;
+                }
+                &__doc{
+                    margin-left: 10px;
+                    width: 15%;
+                }
+               &__texto{
+                   color: black;
+                    font-size: 25px;
+                    margin-left: 15px;  
+                    margin-top: 15px;  
+               }
+                 
+            }
+            &__linea3{
+                margin-top: 30px;
+                display:flex;
+                flex-direction: row;
+                
+                &__raya{
+                    border-top: 2px solid black;
+                    margin-top: 20px;
+                    width: 30px;
+                }
+                &__doc{
+                    margin-left: 10px;
+                    width: 15%;
+                }
+               &__texto{
+                   color: black;
+                    font-size: 25px;
+                    margin-left: 15px;  
+                    margin-top: 15px;  
+               }
+                 
+            }
+        }
+    }
+  
+}
