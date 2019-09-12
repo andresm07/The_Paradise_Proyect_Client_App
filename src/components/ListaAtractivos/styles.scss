@@ -1,0 +1,104 @@
+@import './../../assets/styles/fonts.scss';
+
+.listaAtractivos{
+
+    font-family: $questrial;
+    margin-top: 280px;
+    margin-left: 80px;
+    background: #FAF9F9;
+
+    &__titulo{
+        font-size: 40px;
+        color: #1E3D85;
+    }
+
+    &__contenido{
+        display: flex;
+        flex-direction: row;
+        margin-left: 50px;
+
+        &__distritos{
+            display: flex;
+            flex-direction: column;
+
+            &__nombre{
+                font-size: 20px;
+                margin-bottom: 15px;
+                margin-left: 15px;
+            }
+
+            &__borde{
+                border-bottom: 1px solid #FFE000;
+                width: 175px;
+            }
+        }
+
+        &__lugares{
+            display: flex;
+            flex-direction: row;
+            margin-left: 75px;
+
+            &__flecha{
+                width: 40px;
+                height: 40px;
+                margin-top: 150px;
+            }
+
+            &__lista{
+                display: flex;
+                flex-direction: row;
+
+                &__lugar{
+                    margin-left: 15px;
+                    margin-right: 15px;
+
+                    &__imagen{
+                        width: 225px;
+                        height: 350px;
+                    }
+
+                    &__top{
+                        display: flex;
+                        flex-direction: row;
+                        color: #FAF9F9;
+                        width: 156px;
+                        margin-left: 35px;
+
+                        &__nombre{
+                            margin-top: -270px;
+                            font-size: 15px;
+                            line-height: 15px;
+                            text-align: center;
+                            margin-left: 2px;
+                            margin-right: 2px;
+                        }
+
+                        &__raya{
+                            margin-top: -256px;
+                            border-top: 3px solid rgba(255, 255, 255, 0.42);
+                            width: 80px;
+                        }
+                    }
+
+                    &__fondo{
+                        margin-top: -330px;
+                        margin-left: 25px;
+                        width: 175px;
+                        height: 300px;
+                        background: rgba(0, 0, 0, 100);
+                    }
+
+                    &__caja{
+                        border-bottom: 3px solid #FFFFFF;
+                        border-left: 3px solid #FFFFFF;
+                        border-right: 3px solid #FFFFFF;
+                        width: 150px;
+                        height: 250px;
+                        margin-left: 35px;
+                        margin-top: -260px;
+                    }
+                }
+            }
+        }
+    }
+}
