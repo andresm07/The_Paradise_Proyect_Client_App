@@ -12,6 +12,7 @@ import { CookiesProvider } from 'react-cookie'
 import store from './store/store'
 import CultutalEvents from './../components/CulturalEvents/index';
 import Form from './../components/Form/index';
+import QuienesSomos from '../components/QuienesSomos/quienessomos';
 
 export default class Root extends Component {
   constructor(props) {
@@ -24,7 +25,7 @@ export default class Root extends Component {
           <Router>
               <Switch>
                 <Route path="/events" component={CultutalEvents} />
-                <Route path="/nosotros" component={CultutalEvents} />
+                <Route path="/nosotros" component={QuienesSomos} />
                 <Route path="/atractivos" component={CultutalEvents} />
                 <Route path="/contactanos" component={Form} />
                 <Route path="/patentes" component={CultutalEvents} />

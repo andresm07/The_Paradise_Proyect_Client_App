@@ -1,0 +1,134 @@
+@import '../../assets/styles/constants.scss';
+@import '../../assets/styles/fonts.scss';
+
+.quienessomos {
+  position: relative;
+  font-family: $questrial;
+  display: flex;
+  flex-direction: column;
+  margin-top: 300px;
+  &__nosotros{
+    display: flex;
+    flex-direction: row;
+    &__visionmision{
+      display: flex;
+      flex-direction: column;
+      &__visionTitulo{
+        font-size: 50px;
+        color: #1E3D85;
+        margin-left: 40px;
+      }
+      &__misionTitulo{
+        font-size: 50px;
+        color: #1E3D85;
+        margin-left: 40px;
+      }
+      &__visiontexto{
+        color: #111111;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: justify;
+        width: 700px;
+        margin-left: 90px;
+        margin-top: 0px;
+      }
+      &__misiontexto{
+        color: #111111;
+        font-size: 20px;
+        line-height: 20px;
+        text-align: justify;
+        width: 700px;
+        margin-left: 90px;
+        margin-top: 0px;
+      }
+    }
+    &__fiestas{
+      padding-left: 60px;
+      width: 800px;
+      height: 100%;
+      padding-top: 50px;
+    }
+  }
+  &__resena{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    &__mapa{
+      margin-left: 150px;
+      width: 640px;
+      height: 756px;
+    }
+    &__historia{
+      display: flex;
+      flex-direction: column;
+      
+      &__titulo{
+        padding-left: 100px;
+        font-size: 50px;
+        color: #1E3D85;
+        margin-left: 40px;
+        margin-bottom: 300px;
+      }
+      &__texto{
+        color: #111111;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: justify;
+        width: 700px;
+        margin-left: 200px;
+      }
+    }
+  }
+}
+
+
+@media only screen and (min-width: 851px) and (max-width: 1351px){
+  .quienessomos{
+    margin-left: 60px;
+    margin-bottom: -250px;
+    &__nosotros{
+      &__visionmision{
+        &__visionTitulo{
+          font-size: 30px;
+        }
+        &__misionTitulo{
+          font-size: 30px;
+        }
+        &__visiontexto{
+          font-size: 15px;
+          width: 400px;
+        }
+        &__misiontexto{
+          font-size: 15px;
+          width: 400px;
+        }
+      }
+      &__fiestas{
+        width: 550px;
+        margin-left: 40px;
+      }
+    }
+    &__resena{
+      &__mapa{
+        width: 340px;
+        height: 456px;
+        margin-left: 140px;
+      }
+      &__historia{
+        margin-left: -30px;
+        &__titulo{
+          font-size: 30px;
+          margin-left: 0px;
+          margin-bottom: 20px;
+          margin-top: 0;
+        }
+        &__texto{
+          font-size: 15px;
+          width: 400px;
+          margin-left: 136px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+}

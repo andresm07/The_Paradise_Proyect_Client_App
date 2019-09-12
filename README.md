@@ -28,8 +28,8 @@ React: Diseño de interfaces de usuario
 
 $ git clone The_Paradise_Proyect_Client_App.git
 
-$ mpm install 
+$ npm install 
 
 2. Ejecutar aplicación
 
-$ mpm start
+$ npm start
