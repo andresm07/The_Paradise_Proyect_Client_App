@@ -9,7 +9,8 @@ import './styles.scss'
 import { Container, Row, Col } from "react-bootstrap";
 import CustomCarousel from './Carousel/index'
 import ContactCard from './ContactCard/index'
-import 'bootstrap/dist/css/bootstrap.css';
+import Header from './../Header/index';
+import Footer from './../Footer/index';
 
 class AtrctivoTuristico extends React.Component {
   constructor(props) {
@@ -27,24 +28,28 @@ class AtrctivoTuristico extends React.Component {
 
   render() {
     return (
-      <div className="atrctivoTuristico">
-          <CustomCarousel imgList={this.state.images}/>
-          <Row>
-            <Col>
-              <h1>{this.state.name}</h1>
-              <h4>Información</h4>
-            </Col>
-          </Row>
-          <Row>
-            <Col sm={5} >
-            </Col>
-            <Col sm={7}>
-              <Container style={{ width: '450px'}}>
-                <p>{this.state.info}</p>
-              </Container>
-            </Col>
-          </Row>
-          <ContactCard email={this.state.email} phone={this.state.phone} location={this.state.location} hours={this.state.hours}/>
+      <div>
+        <Header></Header>
+        <div className="atrctivoTuristico">
+            <CustomCarousel imgList={this.state.images}/>
+            <Row>
+              <Col>
+                <h1>{this.state.name}</h1>
+                <h4>Información</h4>
+              </Col>
+            </Row>
+            <Row>
+              <Col sm={5} >
+              </Col>
+              <Col sm={7}>
+                <Container style={{ width: '450px'}}>
+                  <p>{this.state.info}</p>
+                </Container>
+              </Col>
+            </Row>
+            <ContactCard email={this.state.email} phone={this.state.phone} location={this.state.location} hours={this.state.hours}/>
+        </div>
+        <Footer></Footer>
       </div>
     )
   }

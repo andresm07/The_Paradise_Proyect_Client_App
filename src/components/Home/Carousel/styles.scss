@@ -1,0 +1,15 @@
+@import '../../../assets/styles/constants.scss';
+@import '../../../assets/styles/fonts.scss';
+
+.homeCarousel {
+  width: 100%;
+  font-size: 12px;
+  position: relative;
+  font-family: $questrial;
+}
+
+
+.img {
+  width: 100%;
+  height: 500px;
+}
