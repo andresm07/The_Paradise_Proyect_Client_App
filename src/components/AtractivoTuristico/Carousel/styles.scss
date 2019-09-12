@@ -2,12 +2,8 @@
 
 .customCarousel {
   font-size: 12px;
+  position: relative;
   margin: 20px auto;
-  &__text{
-    position: relative;
-    text-align: center;
-    top: 300px;
-  }
 }
 
 .img {

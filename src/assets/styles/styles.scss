@@ -5,15 +5,19 @@ $vin-red: #ff0000;
 
 /* Styles */
 body {
-  background: #FAF9F9;
   color: #5bb7db;
   font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 1.4em;
   color: #4d4d4d;
-  margin: 0 auto;
+  min-width: 230px;
+  max-width: 550px;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   font-smoothing: antialiased;
   font-weight: 300;
   background-color: #FAF9F9;
+}
+p {
+  margin-top: 20px;
+  margin-bottom: 1rem;
 }

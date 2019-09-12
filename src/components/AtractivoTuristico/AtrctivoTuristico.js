@@ -9,6 +9,7 @@ import './styles.scss'
 import { Container, Row, Col } from "react-bootstrap";
 import CustomCarousel from './Carousel/index'
 import ContactCard from './ContactCard/index'
+import 'bootstrap/dist/css/bootstrap.css';
 
 class AtrctivoTuristico extends React.Component {
   constructor(props) {
@@ -27,7 +28,6 @@ class AtrctivoTuristico extends React.Component {
   render() {
     return (
       <div className="atrctivoTuristico">
-        <Container>
           <CustomCarousel imgList={this.state.images}/>
           <Row>
             <Col>
@@ -45,7 +45,6 @@ class AtrctivoTuristico extends React.Component {
             </Col>
           </Row>
           <ContactCard email={this.state.email} phone={this.state.phone} location={this.state.location} hours={this.state.hours}/>
-        </Container>
       </div>
     )
   }
