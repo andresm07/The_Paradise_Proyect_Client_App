@@ -12,7 +12,6 @@ import { Link } from 'react-router-dom';
 import Img1 from '../../assets/img/home/0.jpg';
 import Img2 from '../../assets/img/home/1.jpg';
 import Img3 from '../../assets/img/home/2.jpg';
-import Img4 from '../../assets/img/home/0.jpg';
 
 class HomePage extends React.Component {
   constructor(props) {
@@ -64,7 +63,7 @@ class HomePage extends React.Component {
             <Col sm={5}  className="container">
               <Link to="/contactanos">
               <button className="btn">
-              <img src={Img4} alt="Contacto"/>
+              <img src={Img1} alt="Contacto"/>
               <p className="centered">Contáctenos</p>
               </button>
               </Link>
