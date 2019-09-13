@@ -15,6 +15,7 @@ import Form from './../components/Form/index';
 import QuienesSomos from '../components/QuienesSomos/quienessomos';
 import ListaAtractivos from '../components/ListaAtractivos/listaatractivos';
 import Tramites from '../components/Tramites/tramites';
+import AtractivosTuristicos from '../components/AtractivoTuristico/index';
 
 export default class Root extends Component {
   constructor(props) {
@@ -26,6 +27,7 @@ export default class Root extends Component {
         <Provider store={store}>
           <Router>
               <Switch>
+                <Route path="/atractivoTuristico" component={AtractivosTuristicos} />
                 <Route path="/events" component={CultutalEvents} />
                 <Route path="/nosotros" component={QuienesSomos} />
                 <Route path="/atractivos" component={ListaAtractivos} />
