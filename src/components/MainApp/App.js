@@ -15,9 +15,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div className="home">
         <HomePage/>
-      </div>
     );
   }
 }
