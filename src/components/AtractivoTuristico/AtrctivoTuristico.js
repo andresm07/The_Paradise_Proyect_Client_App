@@ -16,13 +16,13 @@ class AtrctivoTuristico extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      name: "Jardin Botanico Lankaster",
-      email:"paraiso@gmail.com",
-      phone: "2266-4433",
-      location: "¿Cómo llegar?",
-      hours: "Abierto todos los días de 8:30 a.m a 4:30 p.m",
-      images: ["./../../assets/img/black-square.png", "./../../assets/img/lankaster2.png", "./../../assets/img/lankaster3.jpg"],
-      info: "La historia del Jardín Botánico Lankester se remonta a la década de 1940 cuando el naturalista británico Charles H. Lankester se interesó en el cultivo y estudio de las plantas epífitas de Costa Rica.\nComo botánico aficionado colaboró con los más destacados orquideólogos de la época y dedicó su vida a la creación de un jardín privado en su finca. Después de su muerte la importancia de preservar su jardín fue evidente.\nA través de los esfuerzos conjuntos de la American Orchid Society y de la Stanley Smith Horticultural Trust, el jardín de ”don Carlos” fue donado a la Universidad de Costa Rica el 2 de marzo de 1973 con el compromiso de transformarlo en un jardín botánico.  Con dedicación y mucho esfuerzo el Jardín Botánico Lankester ha llegado a convertirse en una de las instituciones botánicas más activas e importantes del Neotrópico.",
+      name: this.props.location.state.nombre,
+      email: this.props.location.state.email,
+      phone: this.props.location.state.telefono,
+      location: this.props.location.state.ubicacion,
+      hours: this.props.location.state.horario,
+      images: this.props.location.state.imgList,
+      info: this.props.location.state.info
     }
   }
 

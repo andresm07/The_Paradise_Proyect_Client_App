@@ -19,7 +19,7 @@ class ListaAtractivos extends React.Component {
     super(props)
     this.state = {
         distrito:'Orosi',
-        lugares:listaLugares['Orosi']
+        lugares:listaLugares['Orosi'],
     };
   }
 
@@ -61,10 +61,21 @@ class ListaAtractivos extends React.Component {
                     <div className='listaAtractivos__contenido__lugares'>
                         <img className='listaAtractivos__contenido__lugares__flecha' src={left}/>
                         <div className='listaAtractivos__contenido__lugares__lista'>
-                            {/*puto el que lo lea - falta el for*/}
+                            {/*puto el que lo lea */}
                             {this.state.lugares.map((lugar) => (
                                 // eslint-disable-next-line react/jsx-key
-                                <Link className='listaAtractivos__contenido__lugares__lista__lugar' to='/'>
+                                <Link className='listaAtractivos__contenido__lugares__lista__lugar' to={{
+                                    pathname: "/atractivoTuristico",
+                                    state: {
+                                        nombre: lugar["nombre"],
+                                        email: lugar["email"],
+                                        telefono: lugar["telefono"],
+                                        ubicacion: lugar["ubicacion"],
+                                        horario: lugar["horario"],
+                                        imgList: lugar["imgList"],
+                                        info: lugar["info"]
+                                          }
+                                    }}>
                                     <img className='listaAtractivos__contenido__lugares__lista__lugar__imagen' src={lugar["img"]}/>
                                     <div className='listaAtractivos__contenido__lugares__lista__lugar__fondo'/>
                                     <div className='listaAtractivos__contenido__lugares__lista__lugar__caja'/>

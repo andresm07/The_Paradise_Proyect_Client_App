@@ -48,7 +48,9 @@ class ContactCard extends React.Component {
                 src="./../../assets/img/002-placeholder.png"
                 alt="First slide"
               />
-              {this.state.location}
+              <a href={this.state.location}>
+                ¿Cómo llegar?
+              </a>
             </ListGroup.Item>
             <ListGroup.Item>
               <img
