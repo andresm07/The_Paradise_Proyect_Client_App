@@ -1,0 +1,28 @@
+@import '../../assets/styles/constants.scss';
+@import './../../assets/styles/fonts.scss';
+
+.atrctivoTuristico {
+  font-family: $questrial;
+  font-size: 12px;
+  position: relative;
+  top: 200px;
+  left: 30%;
+  align-content: center;
+  width: 1000px;
+  
+  &__text{
+    position: relative;
+    text-align: center;
+    top: 300px;
+  }
+  &__carousel{
+    position: relative;
+    text-align: center;
+    top: 300px;
+  }
+}
+
+h1 {
+  font-family: $questrial;
+  color: #0269AB;
+}
