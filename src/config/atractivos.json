@@ -1,0 +1,5 @@
+{
+    "Orosi":[{"nombre":"Parque Nacional Tapantí", "img":"./../../../assets/img/listaAtractivos/tapanti.png"},{"nombre":"Mirador de Orosi", "img":"./../../../assets/img/listaAtractivos/mirador.png"},{"nombre":"Iglesia de Orosi", "img":"./../../../assets/img/listaAtractivos/iglesia.png"}],
+    "Cachi":[{"nombre":"Lago de Cachí", "img":"./../../../assets/img/listaAtractivos/represa.png"},{"nombre":"Casa del soñador", "img":"./../../../assets/img/listaAtractivos/sonador.png"},{"nombre":"Ruinas de Ujarras", "img":"./../../../assets/img/listaAtractivos/ujarras.png"}],
+    "Paraiso":[{"nombre":"Jardín Botanico Lankester", "img":"./../../../assets/img/listaAtractivos/jardin.png"},{"nombre":"Catarata el Salto de la Novia", "img":"./../../../assets/img/listaAtractivos/catarata.png"},{"nombre":"Laguna de Doña Ana", "img":"./../../../assets/img/listaAtractivos/laguna.png"}]
+}

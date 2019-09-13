@@ -5,6 +5,7 @@
     font-family: $questrial;
     margin-top: 280px;
     margin-left: 80px;
+    margin-bottom: -150px;
     background: #FAF9F9;
 
     &__titulo{
@@ -51,6 +52,7 @@
                 &__lugar{
                     margin-left: 15px;
                     margin-right: 15px;
+                    text-decoration: none;
 
                     &__imagen{
                         width: 225px;
