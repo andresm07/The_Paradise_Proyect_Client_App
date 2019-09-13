@@ -14,6 +14,7 @@ import CultutalEvents from './../components/CulturalEvents/index';
 import Form from './../components/Form/index';
 import QuienesSomos from '../components/QuienesSomos/quienessomos';
 import ListaAtractivos from '../components/ListaAtractivos/listaatractivos';
+import Tramites from '../components/Tramites/tramites';
 
 export default class Root extends Component {
   constructor(props) {
@@ -29,7 +30,7 @@ export default class Root extends Component {
                 <Route path="/nosotros" component={QuienesSomos} />
                 <Route path="/atractivos" component={ListaAtractivos} />
                 <Route path="/contactanos" component={Form} />
-                <Route path="/patentes" component={CultutalEvents} />
+                <Route path="/patentes" component={Tramites} />
                 <Route path="/" component={MainApp} />
               </Switch>
             </Router>

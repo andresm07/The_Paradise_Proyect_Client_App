@@ -49,7 +49,7 @@ class Header extends React.Component {
             <div className = "header__menu__raya"></div>
           </Link>
           <Link className= "header__menu__link" to= "/patentes">
-            <p className= "header__menu__opcion"> Patentes</p>
+            <p className= "header__menu__opcion">Trámites</p>
             <div className = "header__menu__raya"></div>
           </Link>
         </div>

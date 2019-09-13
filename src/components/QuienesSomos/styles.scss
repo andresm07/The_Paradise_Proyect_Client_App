@@ -7,6 +7,11 @@
   display: flex;
   flex-direction: column;
   margin-top: 300px;
+  margin-left: 170px;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: justify;
+  margin-bottom: -200px;
   &__nosotros{
     display: flex;
     flex-direction: row;
@@ -25,57 +30,47 @@
       }
       &__visiontexto{
         color: #111111;
-        font-size: 20px;
-        line-height: 20px;
-        text-align: justify;
-        width: 700px;
+        width: 650px;
         margin-left: 90px;
-        margin-top: 0px;
+        margin-top: 15px;
       }
       &__misiontexto{
         color: #111111;
-        font-size: 20px;
-        line-height: 20px;
-        text-align: justify;
-        width: 700px;
+        width: 650px;
         margin-left: 90px;
-        margin-top: 0px;
+        margin-top: 15px;
       }
     }
     &__fiestas{
-      padding-left: 60px;
+      padding-left: 110px;
       width: 800px;
       height: 100%;
-      padding-top: 50px;
+      margin-top: 100px;
     }
   }
   &__resena{
     display: flex;
     flex-direction: row;
-    margin-top: 70px;
+    margin-top: 50px;
     &__mapa{
-      margin-left: 150px;
-      width: 640px;
-      height: 756px;
+      margin-left: 200px;
+      width: auto;
+      height: 800px;
+      margin-top: 105px;
     }
     &__historia{
       display: flex;
       flex-direction: column;
-      
+      margin-left: 100px;
       &__titulo{
-        padding-left: 100px;
+        padding-left: 70px;
         font-size: 50px;
         color: #1E3D85;
-        margin-left: 40px;
-        margin-bottom: 300px;
       }
       &__texto{
         color: #111111;
-        font-size: 20px;
-        line-height: 30px;
-        text-align: justify;
-        width: 700px;
-        margin-left: 200px;
+        width: 650px;
+        margin-left: 115px;
       }
     }
   }
@@ -86,6 +81,8 @@
   .quienessomos{
     margin-left: 60px;
     margin-bottom: -250px;
+    font-size: 18px;
+    line-height: 22px;
     &__nosotros{
       &__visionmision{
         &__visionTitulo{
@@ -95,11 +92,9 @@
           font-size: 30px;
         }
         &__visiontexto{
-          font-size: 15px;
           width: 400px;
         }
         &__misiontexto{
-          font-size: 15px;
           width: 400px;
         }
       }
@@ -112,10 +107,11 @@
       &__mapa{
         width: 340px;
         height: 456px;
-        margin-left: 140px;
+        margin-left: 100px;
+        margin-top: 60px;
       }
       &__historia{
-        margin-left: -30px;
+        margin-left: 65px;
         &__titulo{
           font-size: 30px;
           margin-left: 0px;
@@ -123,10 +119,8 @@
           margin-top: 0;
         }
         &__texto{
-          font-size: 15px;
           width: 400px;
           margin-left: 136px;
-          line-height: 20px;
         }
       }
     }

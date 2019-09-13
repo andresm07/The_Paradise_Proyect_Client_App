@@ -34,5 +34,14 @@
         "name":"Obra de teatro",
         "type":"Cultural",
         "img":"./../../../assets/img/agenda/cultura.png"
+    },
+    {  
+        "date":"1",
+        "month":"Nov",
+        "time":"5:00",
+        "period":"p.m.",
+        "name":"Obra de teatro",
+        "type":"Cultural",
+        "img":"./../../../assets/img/agenda/cultura.png"
     }
 ]
