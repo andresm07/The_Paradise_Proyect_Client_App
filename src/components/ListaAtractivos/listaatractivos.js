@@ -81,9 +81,9 @@ class ListaAtractivos extends React.Component {
                                     <div className='listaAtractivos__contenido__lugares__lista__lugar__caja'/>
                                     <div className='listaAtractivos__contenido__lugares__lista__lugar__top'>
                                         <div className='listaAtractivos__contenido__lugares__lista__lugar__top__raya'/>
-                                        <p className='listaAtractivos__contenido__lugares__lista__lugar__top__nombre'>
+                                        <h1 className='listaAtractivos__contenido__lugares__lista__lugar__top__nombre'>
                                             {lugar["nombre"]}
-                                        </p>
+                                        </h1>
                                         <div className='listaAtractivos__contenido__lugares__lista__lugar__top__raya'/>
                                     </div>
                                 </Link>
