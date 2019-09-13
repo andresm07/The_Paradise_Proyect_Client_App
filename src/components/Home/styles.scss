@@ -1,4 +1,5 @@
 @import '../../assets/styles/fonts.scss';
+@import '../../assets/styles/constants.scss';
 
 .homePage {
   font-size: 50px;
@@ -8,8 +9,10 @@
 
 .title {
   font-family: $questrial;
-  color: #1E3D85;
-  margin: 2% 0 2% 4%;
+  font-size: 50px;
+  line-height: 51px;
+  color: $color-blue;
+  margin: 6% 0 2% 210px;
 }
 
 .buttonGroup {
@@ -43,8 +46,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: #2D2D2D;
-  color: white;
+  background-color: $color-backgrount-black;
+  color: $color-white;
   font-size: 20px;
   border: none;
   cursor: pointer;
@@ -53,6 +56,13 @@
 }
 
 .container .btn:hover {
-  background-color: #1E3D85;
-  color: white;
+  background-color: $color-blue;
+  color: $color-white;
+}
+
+@media only screen and (min-width: 851px) and (max-width: 1351px){
+  .title {
+    font-size: 30px;
+    margin: 4% 0 2% 90px;
+  }
 }

@@ -1,29 +1,32 @@
 @import './../../assets/styles/fonts.scss';
+@import './../../assets/styles/constants.scss';
 
 .listaAtractivos{
 
     font-family: $questrial;
-    margin-top: 280px;
-    margin-left: 80px;
-    margin-bottom: -150px;
+    margin-top: 300px;
+    margin-left: 210px;
     background: #FAF9F9;
+    width: 100%;
 
     &__titulo{
-        font-size: 40px;
-        color: #1E3D85;
+        font-size: 50px;
+        line-height: 51px;
+        color: $color-blue;
     }
 
     &__contenido{
         display: flex;
         flex-direction: row;
         margin-left: 50px;
+        color: $color-black;
+        font-size: 25px;
 
         &__distritos{
             display: flex;
             flex-direction: column;
 
             &__nombre{
-                font-size: 20px;
                 margin-bottom: 15px;
                 margin-left: 15px;
             }
@@ -101,6 +104,16 @@
                     }
                 }
             }
+        }
+    }
+}
+
+@media only screen and (min-width: 851px) and (max-width: 1351px){
+    .listaAtractivos{
+        margin-top: 250px;
+        margin-left: 130px;
+        &__titulo{
+            font-size: 30px;
         }
     }
 }

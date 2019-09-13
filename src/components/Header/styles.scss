@@ -29,25 +29,25 @@
       font-size: 40px;
       line-height: 42px;
       margin-left: 20px;
-      color: #155D8B;
+      color: $color-blue;
     }
   }
   &__menu{
-    background: #FFE000;
+    background: $color-yellow;
     height: 60px;
     line-height: 22px;
     display: flex;
     flex-direction: row;
     font-size: 18px;
     font-family: $questrial;
-    color: #0269AB;
+    color: $color-blue;
     text-align: center;
     align-items: center;
     padding-left: 20%;
    
     &__link{
       text-decoration: none;
-      color: #0269AB;
+      color: $color-blue;
       display: flex;
       flex-direction: row;
     }
@@ -58,7 +58,7 @@
     &__raya{
       margin-right: 10px;
       margin-left: 10px;
-      border-right: 1px solid  #0269AB;
+      border-right: 1px solid  $color-blue;
       height: 40px;
       margin-top: 10px;
     }

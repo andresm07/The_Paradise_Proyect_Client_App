@@ -1,9 +1,10 @@
 @import '../../assets/styles/constants.scss';
-
+@import '../../assets/styles/fonts.scss';
 .events{
   position: relative;
-  margin-left: 40%;
-  top: 250px;
+  margin-left: 210px;
+  margin-top: 300px;
+  font-family: $questrial;
   &__grid{
     overflow-y: auto;
     width: 985px;
@@ -11,16 +12,17 @@
     margin-left: 100px;
   }
   &__title{
-    color: #1E3D85;
     font-size: 50px;
     line-height: 51px;
+    color: $color-blue;
+    width: 400px;
   }
 }
 
 @media only screen and (min-width: 851px) and (max-width: 1351px){
   .events{
-    margin-left: 150px;
-    top: 230px;
+    margin-left: 130px;
+    margin-top: 250px;
     &__grid{
       overflow-y: auto;
       width: 635px;
@@ -29,7 +31,6 @@
     }
     &__title{
       font-size: 30px;
-      line-height: 21px;
     }
   }
 }

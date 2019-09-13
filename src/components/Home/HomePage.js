@@ -32,7 +32,7 @@ class HomePage extends React.Component {
           captionList={this.state.captions}
           captionList2={this.state.captions2}
         />
-        <h1 className="title">Conozca Paraíso</h1>
+        <p className="title">Conozca Paraíso</p>
         <div className="buttonGroup">
           <Row>
             <Col  sm={5}  className="container">

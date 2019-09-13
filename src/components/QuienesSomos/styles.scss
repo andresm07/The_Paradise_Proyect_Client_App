@@ -11,7 +11,7 @@
   font-size: 30px;
   line-height: 37px;
   text-align: justify;
-  margin-bottom: -200px;
+
   &__nosotros{
     display: flex;
     flex-direction: row;
@@ -79,10 +79,10 @@
 
 @media only screen and (min-width: 851px) and (max-width: 1351px){
   .quienessomos{
-    margin-left: 60px;
-    margin-bottom: -250px;
+    margin-left: 90px;
     font-size: 18px;
     line-height: 22px;
+    margin-top: 250px;
     &__nosotros{
       &__visionmision{
         &__visionTitulo{

@@ -1,46 +1,49 @@
 @import './../../assets/styles/fonts.scss';
-
+@import './../../assets/styles/constants.scss';
 .form{
 
     font-family: $questrial;
-    font-size: 20px;
-    margin-left: 100px;
+    color: $color-black;
+    font-size: 25px;
+    margin-left: 210px;
     margin-top: 300px;
-    margin-bottom: -250px;
     &__contactenos{
         font-size: 50px;
-        color: #1E3D85;
+        line-height: 51px;
+        color: $color-blue;
     }
     &__datos{
         display: flex;
         flex-direction: row;
         margin-left: 100px;
-        
+        width: 100%;
         &__labels{
             display: flex;
             flex-direction: column;
 
             &__tag{
-                width: 200px;
+                width: 300px;
             }
         }
         
         &__inputs{
             display: flex;
             flex-direction: column;
-            margin-top: 20px;
+            margin-top: 5px;
             margin-left: 20px;
             width: 177px;
             
             &__info{
-                margin-bottom: 35px;
+                margin-bottom: 30px;
+                border: 1px solid $color-backgrount-black;
             }
 
             &__textarea{
                 margin-bottom: 35px;
-                height: 100px;
+                height: 120px;
                 width: 354px;
                 resize: none;
+                border: 1px solid $color-backgrount-black;
             }
         }
     }
@@ -51,11 +54,21 @@
     }
 
     &__enviar{
-        background: #0269AB;
-        height: 30px;
-        width: 85px;
-        color: #FFFFFF;
+        background: $color-blue;
+        height: 50px;
+        width: 115px;
+        color: $color-white;
         margin-left: 317px;
         font-family: $questrial;
+    }
+}
+
+@media only screen and (min-width: 851px) and (max-width: 1351px){
+    .form{
+      margin-left: 130px;
+      margin-top: 250px;
+      &__contactenos{
+            font-size: 30px;
+      }
     }
 }
