@@ -4,24 +4,36 @@
 .atrctivoTuristico {
   font-family: $questrial;
   font-size: 12px;
-  position: relative;
-  top: 200px;
-  left: 30%;
+  margin-top: 250px;
   align-content: center;
-  width: 1000px;
+  width: 1920px;
+  position: relative;
   &__text{
     position: relative;
     text-align: center;
     top: 300px;
   }
   &__carousel{
+    left: 30%;
     position: relative;
     text-align: center;
-    top: 300px;
   }
 }
 
+.columna {
+  width: 100%;
+  background: rgba(255, 224, 0, 0.2);
+  padding-left: 50px;
+}
+
+.contenedorTitulo {
+  margin-left: 210px;
+  margin-bottom: 20px;
+}
+
+
 h1 {
-  font-family: $questrial;
-  color: #0269AB;
+  font-size: 50px;
+  line-height: 51px;
+  color: $color-blue;
 }

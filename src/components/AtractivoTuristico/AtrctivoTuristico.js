@@ -33,21 +33,22 @@ class AtrctivoTuristico extends React.Component {
         <div className="atrctivoTuristico">
             <CustomCarousel imgList={this.state.images}/>
             <Row>
-              <Col>
+              <Col className="contenedorTitulo">
                 <h1>{this.state.name}</h1>
                 <h4>Información</h4>
               </Col>
             </Row>
             <Row>
-              <Col sm={5} >
+              <Col sm={7} style={{ paddingLeft: '210px'}} >
+                <ContactCard email={this.state.email} phone={this.state.phone} location={this.state.location} hours={this.state.hours}/>
               </Col>
-              <Col sm={7}>
-                <Container style={{ width: '450px'}}>
+              <Col sm={5} className="columna">
+                <div style={{ width: '450px'}}>
                   <p>{this.state.info}</p>
-                </Container>
+                </div>
               </Col>
             </Row>
-            <ContactCard email={this.state.email} phone={this.state.phone} location={this.state.location} hours={this.state.hours}/>
+            
         </div>
         <Footer></Footer>
       </div>
