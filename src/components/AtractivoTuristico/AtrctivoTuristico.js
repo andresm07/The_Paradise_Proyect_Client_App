@@ -12,6 +12,8 @@ import ContactCard from './ContactCard/index'
 import Header from './../Header/index';
 import Footer from './../Footer/index';
 
+import { getAtractivo } from '../../server/api-calls';
+
 class AtrctivoTuristico extends React.Component {
   constructor(props) {
     super(props)
@@ -24,6 +26,15 @@ class AtrctivoTuristico extends React.Component {
       images: this.props.location.state.imgList,
       info: this.props.location.state.info
     }
+  }
+
+    onGetAtractivo() {
+      getAtractivo(
+        result => {
+          
+        },
+        err => {}
+      );
   }
 
   render() {

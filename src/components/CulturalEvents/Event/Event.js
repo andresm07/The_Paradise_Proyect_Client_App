@@ -6,6 +6,7 @@
  */
 import React from 'react';
 import './styles.scss'
+import imagen from './../../../assets/img/agenda/evento.png';
 
 class Event extends React.Component {
   constructor(props) {
@@ -17,7 +18,7 @@ class Event extends React.Component {
   render() {
     return (
       <div className="event">
-        <img className="event__image" src={this.props.imagen}></img>
+        <img className="event__image" src={imagen}></img>
         <div className="event__date">
           <div className="event__date__day">{this.props.date}</div>
           <div className="event__date__month">{this.props.month}</div>
